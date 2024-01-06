@@ -1,16 +1,17 @@
 
 
 h1 {
-    background-color: #001233;
+    background-color: #420fe7;
     color: #ffffff;
     font-family: 'specter_trialblack', fallback;
     font-weight:normal;
     font-style:normal;
+    font-size: 3rem;
 }
 
 p {
-    color: #CAC0B3;
-    background: #001233;
+    color: #d5d6f8;
+    background: #420fe7;
     font-family: 'specter_trialregular', fallback;
     font-weight:normal;
     font-style:normal;
@@ -25,6 +26,7 @@ h2 {
     color: #ffffff;
     font: 400 1.5rem/1.5 'rubikregular', sans-serif;
 }
+
 
 @font-face {
     font-family: 'specter_trialblack';
