@@ -1,3 +1,53 @@
+
+
 h1 {
-    background-color: aqua;
+    background-color: #001233;
+    color: #ffffff;
+    font-family: 'specter_trialblack', fallback;
+    font-weight:normal;
+    font-style:normal;
+}
+
+p {
+    color: #CAC0B3;
+    background: #001233;
+    font-family: 'specter_trialregular', fallback;
+    font-weight:normal;
+    font-style:normal;
+}
+
+body {
+    background-color: #420fe7;
+}
+
+h2 {
+    background-color: #420fe7;
+    color: #ffffff;
+    font: 400 1.5rem/1.5 'rubikregular', sans-serif;
+}
+
+@font-face {
+    font-family: 'specter_trialblack';
+    src: url('../fonts/spectertrial-black-bf64ed585c11e27-webfont.woff2') format('woff2'),
+         url('../fonts/spectertrial-black-bf64ed585c11e27-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'specter_trialregular';
+    src: url('../fonts/spectertrial-regular-bf64ed585c0b037-webfont.woff2') format('woff2'),
+         url('../fonts/spectertrial-regular-bf64ed585c0b037-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rubikregular';
+    src: url('../fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
