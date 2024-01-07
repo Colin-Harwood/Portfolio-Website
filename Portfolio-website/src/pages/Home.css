@@ -8,18 +8,25 @@
     h1, p, h2 {
       text-align: center;
     }
-    .img-wrap {
-        padding: 0;
-        margin: 0;
+    .image-wrap {
+        width: 370px !important;
+        height: 200px !important;
+        overflow: hidden;
+        margin: 50px 0;
+    }
+    .dotSm {
+        height: 80px !important;
+        width: 80px !important;
+        
+    }
+    .cont-icons img{
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .absolute {
+        display: none;
       }
-    .img-wrap img {
-        width: 10%;
-        max-width: 10%;
-        border: none;
-    }
-    .img-ad {
-        width: 10%;
-    }
+    
   }
 
 h1 {
@@ -119,3 +126,41 @@ h2 {
 .image-wrap:hover img {
     object-position: bottom center;
 }
+
+.absolute {
+    position: absolute;
+}
+
+.absolute:nth-child(1) {
+    top: 9%;
+    left: 6%;
+    animation: spin 13s linear infinite;
+}
+
+.absolute:nth-child(2) {
+    top: 18%;
+    left: 30%;
+    animation: spin 20s linear infinite;
+}
+
+.absolute:nth-child(3) {
+    bottom: 11%;
+    left: 8%;
+    animation: spin 16s linear infinite;
+}
+
+.absolute:nth-child(4) {
+    bottom: 9%;
+    left: 33%;
+    animation: spin 11s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
