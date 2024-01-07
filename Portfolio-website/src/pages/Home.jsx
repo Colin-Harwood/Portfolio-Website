@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <div className="flex flex-col justify-center h-screen">
         <div className="flex flex-col-reverse md:flex-row justify-center w-full h-full">
-          <div className="flex flex-col items-center justify-center w-full md:w-1/2 p-7 text-center md:text-left">
+          <div className="flex flex-col items-center justify-center w-full md:w-1/2 p-9 text-center md:text-left">
             <div className="text-left">
               <h1 className="lg:text-8xl md:text-5xl sm:text-5xl text-5xl font-bold mt-10">Hi, I'm Colin.</h1>
               <h1 className="lg:text-4xl md:text-3xl sm:text-3xl text-3xl font-bold mb-10">I'm a full stack web developer who makes clean and user friendly websites.</h1>
