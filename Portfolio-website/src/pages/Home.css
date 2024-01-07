@@ -52,3 +52,48 @@ h2 {
     font-style: normal;
 
 }
+
+#line1 {
+    margin-top: -20px;
+}
+
+.dot {
+    height: 250px;
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.dotSm {
+    height: 110px;
+    width: 110px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    border: 10px solid #d5d6f8;
+    transition: transform 0.3s ease-in-out;
+    overflow:hidden;
+}
+
+.dotSm:hover {
+    transform: scale(1.3);
+}
+
+.image-wrap {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    transition: all 3s linear;
+    border: 10px solid #d5d6f8;
+}
+.image-wrap:hover img {
+    object-position: bottom center;
+}
