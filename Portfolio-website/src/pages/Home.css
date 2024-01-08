@@ -1,4 +1,15 @@
+@media (max-height: 935px) {
+    .basis-section {
+      flex-direction: column;
+      align-items: center;
+    }
+    .hero-div {
+        height: 935px !important;
+    }
+  }
+
 @media (max-width: 768px) {
+    
     .flex-row {
       flex-direction: column-reverse;
     }
@@ -119,6 +130,8 @@ h2 {
     font-style: normal;
 
 }
+
+
 
 #line1 {
     margin-top: -20px;
