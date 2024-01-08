@@ -145,19 +145,19 @@ const Home = () => {
       <div className="flex justify-center items-center border-white mt-10">
         <div className="flex flex-col justify-center items-center contact-2-div">
           <a href="mailto:colinharwood0@gmail.com">
-        <button className="bg-none hover:bg-white text-white font-semibold py-2 px-4 shadow cont-btn flex flex-row text-center content-center justify-center">
+        <button className="bg-none hover:bg-white text-white font-semibold py-2 px-4 shadow cont-btn flex flex-row text-center content-center justify-center btn-1">
           <BsFillEnvelopeFill className='btn-icon'/>
           <span className="ml-2">ColinHarwood0@gmail.com</span>
         </button>
         </a>
         <a href="tel:27631274468">
-        <button className="bg-none hover:bg-white text-white font-semibold py-2 px-4 shadow cont-btn flex flex-row text-center content-center justify-center">
+        <button className="bg-none hover:bg-white text-white font-semibold py-2 px-4 shadow cont-btn flex flex-row text-center content-center justify-center btn-2">
         <BsFillTelephoneFill className='btn-icon'/>
           <span className="ml-2">+27 63 127 4468</span>
         </button>
         </a>
         <a href="#">
-        <button className="bg-none hover:bg-white text-white font-semibold py-2 px-4 shadow cont-btn flex flex-row text-center content-center justify-center">
+        <button className="bg-none hover:bg-white text-white font-semibold py-2 px-4 shadow cont-btn flex flex-row text-center content-center justify-center btn-3">
         <BsLinkedin className='btn-icon'/>
           <span className="ml-2">Colin-Harwood</span>
         </button>

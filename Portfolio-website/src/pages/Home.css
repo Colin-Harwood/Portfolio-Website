@@ -54,6 +54,17 @@
       .cont-btn {
         width: 250px !important;
     }
+    .btn-1 {
+        margin-right: 0px;
+    }
+    
+    .btn-2 {
+        margin-left: 0px;
+    }
+    
+    .btn-3 {
+        margin-right: 0px;
+    }
   }
 
 h1 {
@@ -244,3 +255,14 @@ h2 {
     width: 100%;
 }
 
+.btn-1 {
+    margin-right: 70px;
+}
+
+.btn-2 {
+    margin-left: 70px;
+}
+
+.btn-3 {
+    margin-right: 70px;
+}
