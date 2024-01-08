@@ -9,7 +9,7 @@
       text-align: center;
     }
     .image-wrap {
-        width: 370px !important;
+        width: 350px !important;
         height: 200px !important;
         overflow: hidden;
         margin: 50px 0;
@@ -51,7 +51,9 @@
         border-radius: 10px;
         flex: 3 !important;
       }
-    
+      .cont-btn {
+        width: 250px !important;
+    }
   }
 
 h1 {
@@ -222,4 +224,23 @@ h2 {
     border-radius: 10px;
 }
 
+.cont-btn {
+    width: 350px;
+    height: 60px;
+    border: white 5px solid;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.cont-btn:hover {
+    color: #420fe7;
+}
+
+.btn-icon {
+    margin-top: 5px !important;
+}
+
+.contact-2-div{
+    width: 100%;
+}
 
