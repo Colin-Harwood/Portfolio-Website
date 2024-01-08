@@ -3,6 +3,7 @@ import './Home.css'
 import { BsFillEnvelopeFill } from "react-icons/bs";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 
 const Home = () => {
   return (
@@ -11,10 +12,10 @@ const Home = () => {
         <div className="flex flex-col-reverse md:flex-row justify-center w-full h-full">
           <div className="flex flex-col items-center justify-center w-full md:w-1/2 p-9 text-center md:text-left">
             <div className="text-left">
-            <img src="/south-africa (1)-modified.png" alt="wavyUnderline" width="71px" className="absolute hidden lg:visible"/>
-      <img src="/closed-book-with-bookmark-modified.png" alt="wavyUnderline" width="71px" className="absolute hidden lg:visible"/>
-      <img src="/console-modified.png" alt="wavyUnderline" width="71px" className="absolute hidden lg:visible"/>
-      <img src="/sweater-modified.png" alt="wavyUnderline" width="71px" className="absolute hidden lg:visible"/>
+            <img src="/south-africa (1)-modified.png" alt="wavyUnderline" width="71px" className="absolute visible"/>
+      <img src="/closed-book-with-bookmark-modified.png" alt="wavyUnderline" width="71px" className="absolute visible"/>
+      <img src="/console-modified.png" alt="wavyUnderline" width="71px" className="absolute visible"/>
+      <img src="/sweater-modified.png" alt="wavyUnderline" width="71px" className="absolute visible"/>
               <h1 className="lg:text-8xl md:text-6xl sm:text-6xl text-6xl font-bold mt-10">Hi, I'm Colin.</h1>
               <h1 className="lg:text-4xl md:text-3xl sm:text-3xl text-3xl font-bold mb-10">I'm a full stack web developer who makes clean and user friendly websites.</h1>
               <p className="text-xl">I'm based out of South Africa and specialise in NodeJS, Django, and React.<br/> In my free time I enjoy some reading, videogames and fashion.</p>
@@ -48,15 +49,30 @@ const Home = () => {
           </div>
         </div>
         <div className="flex flex-col justify-center align-center content-center items-center">
-          <h1 className="text-5xl">EasyChauffeur</h1>
-          <p>EasyChauffeur is a chauffeur booking service that allows clients to book a chauffeur service.</p>
-          
+          <h1 className="text-5xl mb-7">EasyChauffeur</h1>
+          <p className='px-10'>EasyChauffeur is a full stack CRUD application built with Django, SQL, React and Bootstrap that combines googles maps api with a sleek user interface, allowing clients to easily select their route as well as vehicle. EasyChauffeur also allows clients to easily view, edit and cancel their bookings swiftly with no delay.</p>
+          <div className="flex flex-row justify-center gap-10">
+            <a href="https://github.com/Colin-Harwood/Full-Stack-Car-Rental-Website">
+            <img src="/github.a4a6a7ae8671bf5749a6aaa4d604fdaa.svg" alt="project" width="50px" height="50px" className="projBtn"/>
+            </a>
+            <a href="/EasyChauffeur">
+            <img src="/ddd1c2476bcb099d675bf282f0a40192-removebg-preview.png" alt="project" width="50px" height="50px" className="projBtn"/>
+            </a>
+          </div>
         </div>
       </div>
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-5">
         <div className="flex flex-col lg:flex-col justify-center align-center content-center items-center lg:order-first order-last">
-          <h1 className="text-5xl mb-12">Chauffeur</h1>
-          <p>Chauffeur is a chauffeur booking service that allows clients to book a chauffeur service.</p>
+          <h1 className="text-5xl mb-7">Ivy Fashion</h1>
+          <p className='px-10'>Ivy Fashion is a full stack web app built utilising NodeJs, MongoDb, ExpressJS and React. Ivy Fashion allows users to eaily view an assortment of products from different brands in a single location, as well as log in and save items to their wishlist and view the original item on the brands official website.</p>
+          <div className="flex flex-row justify-center gap-10">
+            <a href="https://github.com/Colin-Harwood/IvyFashion">
+            <img src="/github.a4a6a7ae8671bf5749a6aaa4d604fdaa.svg" alt="project" width="50px" height="50px" className="projBtn"/>
+            </a>
+            <a href="/IvyFashion">
+            <img src="/ddd1c2476bcb099d675bf282f0a40192-removebg-preview.png" alt="project" width="50px" height="50px" className="projBtn"/>
+            </a>
+          </div>
           
         </div>
         <div className="flex flex-col justify-center align-center content-center items-center">
