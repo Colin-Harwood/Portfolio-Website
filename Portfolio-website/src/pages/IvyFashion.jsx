@@ -1,10 +1,12 @@
 import './IvyFashion.css'
 
 import React from 'react'
+import Navbar from '../components/Navbar';
 
 const IvyFashion = () => {
   return (
     <>
+    <Navbar/>
       <div className="flex justify-center mt-7">
         <h1 className="text-5xl lg:text-8xl font-bold">Ivy Fashion<br/><img src="/image-removebg-preview (6).png" alt="wavyUnderline" width="720px" id="line1"/></h1>
       </div>
@@ -61,7 +63,7 @@ const IvyFashion = () => {
           
       </div >
 
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-5">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-5 mb-20">
         
           <div class="columns-2 ml-5 order-last lg:order-first">
             <div className="flex flex-col">
@@ -70,12 +72,10 @@ const IvyFashion = () => {
             </div>
           </div>
           <div className="flex flex-col lg:flex-col justify-center align-center content-center items-center ">
-            <h1 className="text-5xl mb-7">Favourites Page</h1>
+            <h1 className="text-5xl mb-7">Login and Register Pages</h1>
             <p className='px-10'>
-            The payment pages are simple and easy to use, with the client being able to easily input their details 
-            with google maps api helping and automatically complete addresses. Clients are also then shown the route on the interactable map
-            and instantly give prices per vehicle, based on the distance and time of the route, 
-            after confirming their initial details. The payment page is also fully responsive and mobile friendly, allowing clients to easily book a chauffeur on the go.
+            The login and register are simple and effectively allow the user to login and add items to their favourited items. 
+            <br />Once logged in it is also extremely simple to logout with the logout button in the navbar only requiring a simple click.
             </p>
           </div>
       </div >

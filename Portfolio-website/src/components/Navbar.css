@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem 1rem;
+    background-color: #f8f9fa;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .links a {
+    margin-right: 1rem;
+    text-decoration: none;
+    font-size: large;
+  }
+  
+  .contact button {
+    padding: 0.5rem 1rem;
+    background-color: #420fe7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+@media (max-width: 450px) {
+    .links a{
+        visibility: hidden;
+    }
+}
+
+nav {
+    color: #420fe7;
+}
+
+html {
+    scroll-behavior: smooth;
+  }

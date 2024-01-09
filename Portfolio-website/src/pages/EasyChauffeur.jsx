@@ -1,11 +1,12 @@
 
 import './EasyChauffeur.css'
-
 import React from 'react'
+import Navbar from '../components/Navbar';
 
 const EasyChauffeur = () => {
   return (
     <>
+      <Navbar/>
       <div className="flex justify-center mt-7">
         <h1 className="text-5xl lg:text-8xl font-bold">EasyChauffeur<br/><img src="/image-removebg-preview (6).png" alt="wavyUnderline" width="720px" id="line1"/></h1>
       </div>
@@ -33,7 +34,7 @@ const EasyChauffeur = () => {
       
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-5">
         
-          <div class="columns-2 ml-5 order-last lg:order-first">
+          <div className="columns-2 ml-5 order-last lg:order-first">
             <div className="flex flex-col">
               <img src="/FireShot Capture 003 - Professional Chauffeur Services - Chauffeur - 127.0.0.1.png" alt="project"  className="rounded w-full mb-3"/>
               <img src="/FireShot Capture 005 - Professional Chauffeur Services - Chauffeur - 127.0.0.1.png" alt="project"  className="rounded w-full mb-3"/>
@@ -59,7 +60,7 @@ const EasyChauffeur = () => {
             The client is then able to view all of their bookings and easily change their details, vehicle or cancel a booking at the click of a button.
             </p>
           </div>
-          <div class="columns-2 mr-5">
+          <div className="columns-2 mr-5">
             <div className="flex flex-col">
               <img src="/FireShot Capture 006 - Professional Chauffeur Services - Chauffeur - 127.0.0.1.png" alt="project"  className="rounded w-full mb-3"/>
               <img src="/FireShot Capture 007 - Professional Chauffeur Services - Chauffeur - 127.0.0.1.png" alt="project"  className="rounded w-full mb-3"/>

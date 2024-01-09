@@ -1,13 +1,25 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './Home.css'
 import { BsFillEnvelopeFill } from "react-icons/bs";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsArrowRight } from "react-icons/bs";
+import Navbar from '../components/Navbar';
+
 
 const Home = () => {
+
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash === '#contact-section') {
+      const element = document.getElementById('contact-section');
+      if (element) element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, []);
+  
   return (
     <>
+      <Navbar/>
       <div className="flex flex-col justify-center lg:h-screen h-auto mt-10 lg:mt-0">
         <div className="flex flex-col-reverse md:flex-row justify-center w-full h-full">
           <div className="flex flex-col items-center justify-center w-full md:w-1/2 p-9 text-center md:text-left">
@@ -161,6 +173,7 @@ const Home = () => {
         
       </div>
       </div>
+      <section id="contact-section">
       <div className="flex justify-center mt-16 text-center">
         <h1 className="text-4xl lg:text-7xl font-bold">Interested?<br/>Lets Get In Touch!<br/><img src="/image-removebg-preview (6).png" alt="wavyUnderline" width="650px" id="line1"/></h1>
       </div>
@@ -187,6 +200,7 @@ const Home = () => {
 
         </div>
       </div>
+      </section>
     </>
   )
 }
