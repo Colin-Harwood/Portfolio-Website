@@ -29,37 +29,33 @@ const IvyFashion = () => {
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-5">
         
           <div class="columns-2 ml-5 order-last lg:order-first">
-            <div className="flex flex-col justify-center align-center content-center items-center">
-              <img src="/FireShot Capture 009 - Ivy Fashion - localhost.png" alt="mens clothes"  className="rounded w-full mb-3 "/>
-              <img src="/FireShot Capture 010 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3"/>
-            </div>
+          <div className="flex flex-col justify-center items-center">
+            <img src="/FireShot Capture 009 - Ivy Fashion - localhost.png" alt="mens clothes"  className="rounded w-full mb-3 mt-28"/>
+            <img src="/FireShot Capture 010 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3"/>
+          </div>
           </div>
           <div className="flex flex-col lg:flex-col justify-center align-center content-center items-center ">
             <h1 className="text-5xl mb-7">Men and Women's Page</h1>
             <p className='px-10'>
-            The payment pages are simple and easy to use, with the client being able to easily input their details 
-            with google maps api helping and automatically complete addresses. Clients are also then shown the route on the interactable map
-            and instantly give prices per vehicle, based on the distance and time of the route, 
-            after confirming their initial details. The payment page is also fully responsive and mobile friendly, allowing clients to easily book a chauffeur on the go.
+              The men's and women's section are split into three categories, allowing the user to either view all of the items or pick between just tops, bottoms and outerwear.<br />
+              To view the details of item the user can just click on that item and be instantly taken to a page with the details of the item.
             </p>
           </div>
       </div >
       
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-5 ">
-          <div className="flex flex-col lg:flex-col justify-center align-center content-center items-center ml-5">
-            <h1 className="text-5xl mb-7">Login and Register Pages</h1>
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-32 mb-28">
+          <div className="flex flex-col lg:flex-col justify-center align-center content-center items-center">
+            <h1 className="text-5xl mb-7 px-12">Favourites and Item Details Pages</h1>
             <p className='px-10'>
-            The managing bookings pages are simple and easy to use, with the client being able to easily input their email and quickly find al of their bookings.<br/>
-            The client is then able to view all of their bookings and easily change their details, vehicle or cancel a booking at the click of a button.
+              Upon clicking on an item the user is taken to a page with all of the details of the item, as well as the ability to add the item to their favourites.
+              The user is also able to go to view the item further and go to the official brands website.
+              <br />The user can also add the item to their wishlist where, after logging in, they can save certain items they like.
             </p>
           </div>
           <div class="columns-2 mr-5">
             <div className="flex flex-col">
+              <img src="/FireShot Capture 012 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3 mt-3"/>
               <img src="/FireShot Capture 011 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3"/>
-              <img src="/FireShot Capture 011 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3"/>
-              <img src="/FireShot Capture 011 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3"/>
-              <img src="/FireShot Capture 011 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3"/>
-
             </div>
           </div>
           
@@ -69,9 +65,8 @@ const IvyFashion = () => {
         
           <div class="columns-2 ml-5 order-last lg:order-first">
             <div className="flex flex-col">
-              <img src="/FireShot Capture 011 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3"/>
-              <img src="/FireShot Capture 011 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3"/>
-              <img src="/FireShot Capture 011 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3"/>
+              <img src="/FireShot Capture 014 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3"/>
+              <img src="/FireShot Capture 013 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3"/>
             </div>
           </div>
           <div className="flex flex-col lg:flex-col justify-center align-center content-center items-center ">
