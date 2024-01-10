@@ -186,14 +186,14 @@ h2 {
 }
 
 .absolute:nth-child(1) {
-    top: 9%;
+    top: 16%;
     left: 6%;
     animation: spin 13s linear infinite;
     transform: rotate(350deg);
 }
 
 .absolute:nth-child(2) {
-    top: 18%;
+    top: 23%;
     left: 30%;
     animation: spin 20s linear infinite;
     transform: rotate(340deg);

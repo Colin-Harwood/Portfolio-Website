@@ -65,7 +65,7 @@ const Home = () => {
         </div>
         <div className="flex flex-col justify-center align-center content-center items-center">
           <h1 className="text-5xl mb-7">EasyChauffeur</h1>
-          <p className='px-10'>EasyChauffeur is a full stack CRUD application built with Django, SQL, React and Bootstrap that combines googles maps api with a sleek user interface, allowing clients to easily select their route as well as vehicle. EasyChauffeur also allows clients to easily view, edit and cancel their bookings swiftly with no delay.</p>
+          <p className='px-10'>EasyChauffeur is a full stack CRUD application built with Django, SQL, React and Bootstrap that combines googles maps api with a sleek user interface, allowing clients to easily select their route as well as vehicle. EasyChauffeur also allows clients to easily view, edit and cancel their bookings with no delay.</p>
           <div className="flex flex-row justify-center gap-10">
             <a href="https://github.com/Colin-Harwood/Full-Stack-Car-Rental-Website">
             <img src="/github.a4a6a7ae8671bf5749a6aaa4d604fdaa.svg" alt="project" width="50px" height="50px" className="projBtn"/>
