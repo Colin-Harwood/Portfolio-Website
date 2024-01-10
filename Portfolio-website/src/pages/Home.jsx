@@ -45,7 +45,7 @@ const Home = () => {
               <a href="https://github.com/Colin-Harwood">
               <span className="dotSm flex flex-row items-center justify-center"><img src="/github.a4a6a7ae8671bf5749a6aaa4d604fdaa.svg" alt="project" width="50px" height="50px" /></span>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/colin-harwood-1b8704274/">
               <span className="dotSm flex flex-row items-center justify-center"><img src="/linkedin.7defd339fd92d3e5fa034b24a5f10ed6.svg" alt="project" width="50px" height="50px" /></span>
               </a>
             </div>
@@ -194,7 +194,7 @@ const Home = () => {
           <span className="ml-2">+27 63 127 4468</span>
         </button>
         </a>
-        <a href="#">
+        <a href="https://www.linkedin.com/in/colin-harwood-1b8704274/">
         <button className="bg-none hover:bg-white text-white font-semibold py-2 px-4 shadow cont-btn flex flex-row text-center content-center justify-center btn-3">
         <BsLinkedin className='btn-icon'/>
           <span className="ml-2">Colin-Harwood</span>

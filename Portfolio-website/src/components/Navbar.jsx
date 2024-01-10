@@ -6,7 +6,8 @@ const Navbar = () => {
   return (
     <nav className="navbar">
         <a href="/">
-      <div className="logo">CH</div>
+      <div className="logo">   <img src="/ch-high-resolution-logo.png" alt="logo" width="90px"/>
+</div>
       </a>
       <div className="flex justify-end content-center p-3">
         <div className="links mt-2">
@@ -15,7 +16,10 @@ const Navbar = () => {
         </div>
         <div className="contact">
         <Link to="/#contact-section">
-          <button>Contact Me</button>
+          <button onClick={() => {
+    const element = document.getElementById('contact-section');
+    if (element) element.scrollIntoView({ behavior: 'smooth' });
+  }}>Contact Me</button>
           </Link>
         </div>
       </div>
