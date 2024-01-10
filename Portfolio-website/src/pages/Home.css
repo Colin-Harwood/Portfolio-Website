@@ -189,34 +189,31 @@ h2 {
     top: 9%;
     left: 6%;
     animation: spin 13s linear infinite;
+    transform: rotate(350deg);
 }
 
 .absolute:nth-child(2) {
     top: 18%;
     left: 30%;
     animation: spin 20s linear infinite;
+    transform: rotate(340deg);
 }
 
 .absolute:nth-child(3) {
     bottom: 11%;
     left: 8%;
     animation: spin 16s linear infinite;
+    transform: rotate(30deg);
 }
 
 .absolute:nth-child(4) {
     bottom: 9%;
     left: 33%;
     animation: spin 11s linear infinite;
+    transform: rotate(340deg);
 }
 
-@keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
+
   
 .skill-div {
     background-color: #d5d6f8;

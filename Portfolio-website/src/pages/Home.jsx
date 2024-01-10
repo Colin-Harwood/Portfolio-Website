@@ -34,7 +34,10 @@ const Home = () => {
             </div>
           </div>
           <div className="flex flex-col w-full md:w-1/2 items-center justify-center content-center text-center md:text-left">
-            <span className="dot"></span>
+            <span className="flex dot items-center justify-center overflow-hidden">
+      <img src="20240110_133034-removebg (1).png" alt="wavyUnderline" width="240px" className="mt-5"/>
+
+            </span>
             <div className="flex flex-row items-center justify-center mt-10 gap-10 cont-icons">
             <a href="mailto:colinharwood0@gmail.com">
               <span className="dotSm flex flex-row items-center justify-center"><img src="/gmail.0287b363a72d3c0f445cc724d84f1452.svg" alt="project" width="50px" height="50px" /></span>
