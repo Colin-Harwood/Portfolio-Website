@@ -7,7 +7,7 @@ const Numbify = () => {
     <>
     <Navbar/>
       <div className="flex justify-center mt-7">
-        <h1 className="text-5xl lg:text-8xl font-bold">Ivy Fashion<br/><img src="/image-removebg-preview (6).png" alt="wavyUnderline" width="550px" id="line1"/></h1>
+        <h1 className="text-5xl lg:text-8xl font-bold">Numbify<br/><img src="/image-removebg-preview (6).png" alt="wavyUnderline" width="550px" id="line1"/></h1>
       </div>
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-5">
         <div className="flex flex-col lg:flex-col justify-center align-center content-center items-center ">

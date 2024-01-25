@@ -10,9 +10,10 @@ const Navbar = () => {
 </div>
       </a>
       <div className="flex justify-end content-center p-3">
-        <div className="links mt-2">
+        <div className="links mt-2 mr-1">
           <a href="/EasyChauffeur">EasyChauffeur</a>
           <a href="/IvyFashion">Ivy Fashion</a>
+          <a href="/Numbify">Numbify</a>
         </div>
         <div className="contact">
         <Link to="/#contact-section">

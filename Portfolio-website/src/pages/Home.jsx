@@ -63,10 +63,10 @@ const Home = () => {
           <h1 className="text-5xl mb-7">Numbify</h1>
           <p className='px-10'>Numbify, developed with Django and Bootstrap, enables users to draw numbers and utilises a TensorFlow neural network via an integrated API to predict the drawn digits. The project seamlessly merges web development with machine learning, offering an interactive and intelligent user experience.</p>
           <div className="flex flex-row justify-center gap-10">
-            <a href="https://github.com/Colin-Harwood/IvyFashion">
+            <a href="https://github.com/Colin-Harwood/Hand-Writing-To-Text">
             <img src="/github.a4a6a7ae8671bf5749a6aaa4d604fdaa.svg" alt="Github Icon" width="50px" height="50px" className="projBtn"/>
             </a>
-            <a href="/IvyFashion">
+            <a href="/Numbify">
             <img src="/ddd1c2476bcb099d675bf282f0a40192-removebg-preview.png" alt="Arrow Icon" width="50px" height="50px" className="projBtn"/>
             </a>
           </div>
