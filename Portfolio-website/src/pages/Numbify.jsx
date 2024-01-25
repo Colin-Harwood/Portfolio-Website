@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
+import './Numbify.css'
 
 const Numbify = () => {
   return (
@@ -23,12 +24,12 @@ const Numbify = () => {
           </div>
           
         </div>
-        <div className="flex flex-row justify-center align-center content-center items-center p-10">
-          <img src="/FireShot Capture 020 -  - 127.0.0.1.png" alt="project"  className="rounded w-11/12"/>
+        <div className="flex flex-row justify-center align-center content-center items-center p-3">
+          <img src="/FireShot Capture 020 -  - 127.0.0.1.png" alt="project"  className="rounded w-11/12 mb-3"/>
         </div>
       </div >
       
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 mx-12" id="img-cont">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 mx-6 " id="img-cont">
         
           
           
