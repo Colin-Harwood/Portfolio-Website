@@ -5,6 +5,7 @@ import Home from './pages/Home.jsx';
 import EasyChauffeur from './pages/EasyChauffeur.jsx';
 import IvyFashion from './pages/IvyFashion.jsx';
 import Numbify from './pages/Numbify.jsx';
+import NoctuqueFinance from './pages/NoctuqueFinance.jsx';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Route path="/EasyChauffeur" element={<EasyChauffeur />} />
       <Route path="/IvyFashion" element={<IvyFashion />} />
       <Route path="/Numbify" element={<Numbify />} />
+      <Route path="/NoctuqueFinance" element={<NoctuqueFinance />} />
     </Routes>
   )
 }
