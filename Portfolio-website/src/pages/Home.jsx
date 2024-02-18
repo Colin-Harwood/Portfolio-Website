@@ -68,7 +68,7 @@ const Home = () => {
         </div>
         <div className="flex flex-col justify-center align-center content-center items-center">
           <h1 className="text-5xl mb-7">Noctuque Finance</h1>
-          <p className='px-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eum similique hic, nihil facere consequuntur laboriosam sed commodi repudiandae consequatur rerum? Quaerat assumenda adipisci quos non aut perferendis magnam vitae.</p>
+          <p className='px-10'>Noctuque Finance seamlessly integrates the MERN stack, providing a robust platform for intuitive financial tracking. Users can effortlessly manage expenses, income, subscriptions, and goals, while interactive Chart.js visualizations offer valuable insights for informed decision-making. </p>
           <div className="flex flex-row justify-center gap-10">
             <a href="https://github.com/Colin-Harwood/Finance-tracker">
             <img src="/github.a4a6a7ae8671bf5749a6aaa4d604fdaa.svg" alt="Github Icon" width="50px" height="50px" className="projBtn"/>
