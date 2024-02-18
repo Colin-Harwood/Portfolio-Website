@@ -62,7 +62,7 @@ const Home = () => {
         <div className="flex flex-col justify-center align-center content-center items-center">
           <div className="image-wrap">
             
-              <img src="/FireShot Capture 015 - Professional Chauffeur Services - Chauffeur - 127.0.0.1.png" alt="EasyChauffeur Template Image"  className="img-ad"/>
+              <img src="/FireShot Capture 021 - Noctuque Finance - localhost.jpg" alt="Noctuque Finance Home Page"  className="img-ad"/>
             
           </div>
         </div>
@@ -70,10 +70,10 @@ const Home = () => {
           <h1 className="text-5xl mb-7">Noctuque Finance</h1>
           <p className='px-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eum similique hic, nihil facere consequuntur laboriosam sed commodi repudiandae consequatur rerum? Quaerat assumenda adipisci quos non aut perferendis magnam vitae.</p>
           <div className="flex flex-row justify-center gap-10">
-            <a href="https://github.com/Colin-Harwood/Full-Stack-Car-Rental-Website">
+            <a href="https://github.com/Colin-Harwood/Finance-tracker">
             <img src="/github.a4a6a7ae8671bf5749a6aaa4d604fdaa.svg" alt="Github Icon" width="50px" height="50px" className="projBtn"/>
             </a>
-            <a href="/EasyChauffeur">
+            <a href="/NoctuqueFinance">
             <img src="/ddd1c2476bcb099d675bf282f0a40192-removebg-preview.png" alt="Arrow Icon" width="50px" height="50px" className="projBtn"/>
             </a>
           </div>
