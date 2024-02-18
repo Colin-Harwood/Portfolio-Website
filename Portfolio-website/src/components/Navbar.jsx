@@ -14,6 +14,7 @@ const Navbar = () => {
           <a href="/EasyChauffeur">EasyChauffeur</a>
           <a href="/IvyFashion">Ivy Fashion</a>
           <a href="/Numbify">Numbify</a>
+          <a href="/NoctuqueFinance">Noctuque Finance</a>
         </div>
         <div className="contact">
         <Link to="/#contact-section">
