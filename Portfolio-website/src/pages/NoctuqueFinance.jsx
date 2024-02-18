@@ -12,9 +12,7 @@ const NoctuqueFinance = () => {
         <div className="flex flex-col lg:flex-col justify-center align-center content-center items-center ">
           <h1 className="text-4xl lg:text-5xl mb-7 px-10">Landing Page</h1>
           <p className='px-10'>
-            The landing page here is short and sweet, introducing the brand and giving a reason to use the website.
-            The user is then presented with two simple options, allowing them to easily find what they want without unneccesary clutter.
-            The landing page is also fully responsive and mobile friendly!
+          The website's landing page is designed for user-friendly financial management. It simplifies tracking, investing, and data analysis with a clear layout and intuitive design. Clear calls-to-action help users navigate easily and utilize the platform effectively for their financial goals!
           </p>
           <div className="flex flex-row justify-center gap-10">
 
@@ -22,39 +20,39 @@ const NoctuqueFinance = () => {
           
         </div>
         <div className="flex flex-row justify-center align-center content-center items-center p-10 pl-10 pr-10">
-          <img src="/FireShot Capture 008 - Ivy Fashion - localhost.png" alt="project"  className="rounded  w-2/3"/>
+          <img src="/FireShot Capture 021 - Noctuque Finance - localhost.jpg" alt="project"  className="rounded  lg:w-1/3 w-2/3"/>
         </div>
       </div >
       
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-5">
         
-          <div class="columns-2 ml-5 order-last lg:order-first mr-5 lg:mr-0">
+          <div class=" ml-5 order-last lg:order-first mr-5 lg:mr-0">
           <div className="flex flex-col justify-center items-center">
-            <img src="/FireShot Capture 009 - Ivy Fashion - localhost.png" alt="mens clothes"  className="rounded w-full mb-3 mt-28"/>
-            <img src="/FireShot Capture 010 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3"/>
+            <img src="FireShot Capture 022 - Noctuque Finance - localhost.png" alt="project"  className="rounded w-full mb-3"/>
           </div>
           </div>
           <div className="flex flex-col lg:flex-col justify-center align-center content-center items-center ">
-            <h1 className="text-4xl lg:text-5xl mb-7">Men and Women's Page</h1>
+            <h1 className="text-4xl lg:text-5xl mb-7">Dashboard</h1>
             <p className='px-10'>
-              The men's and women's section are split into three categories, allowing the user to either view all of the items or pick between just tops, bottoms and outerwear.<br />
-              To view the details of item the user can simply click on a item and be instantly taken to a page with the details of the item.
+            The dashboard offers users a streamlined experience for managing their finances. With a clean and intuitive layout, it provides easy access to essential financial tools and data. Users can quickly track expenses, monitor investments, and analyze financial trends. The dashboard's user-friendly interface ensures efficient navigation and seamless interaction, helping users to make informed financial decisions with ease.
             </p>
           </div>
       </div >
       
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-32 mb-28">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-24 mb-28">
           <div className="flex flex-col lg:flex-col justify-center align-center content-center items-center">
-            <h1 className="text-4xl lg:text-5xl mb-7 px-12">Favourites and Item Details Pages</h1>
+            <h1 className="text-4xl lg:text-5xl mb-7 px-12">Income, Expenses, Subscriptions and Goal Pages</h1>
             <p className='px-10'>
-              Upon clicking on an item the user is taken to a page with all of the details of the item, as well as the ability to add the item to their list of favourite items.
-              <br />The user is also able to go to view the item further and go to the official brands website if they wish to view the current price or purchase the item.
+            Our finance website features dedicated pages for managing income, expenses, subscriptions, and setting income goals. Users can easily track income sources, monitor expenses, manage subscriptions, and set specific financial targets—all in one convenient platform.
             </p>
           </div>
           <div class="columns-2 mr-5 ml-5 lg:ml-0">
             <div className="flex flex-col">
-              <img src="/FireShot Capture 012 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3 mt-3"/>
-              <img src="/FireShot Capture 011 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3"/>
+              <img src="FireShot Capture 023 - Noctuque Finance - localhost.png" alt="project"  className="rounded w-full mb-3 mt-3"/>
+              <img src="/FireShot Capture 024 - Noctuque Finance - localhost.png" alt="project"  className="rounded w-full mb-3"/>
+              <img src="/FireShot Capture 025 - Noctuque Finance - localhost.png" alt="project"  className="rounded w-full mb-3"/>
+              <img src="/FireShot Capture 026 - Noctuque Finance - localhost.png" alt="project"  className="rounded w-full mb-3"/>
+              
             </div>
           </div>
           
@@ -62,17 +60,15 @@ const NoctuqueFinance = () => {
 
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-5 mb-20">
         
-          <div class="columns-2 ml-5 mr-5 lg:mr-0 order-last lg:order-first">
-            <div className="flex flex-col">
-              <img src="/FireShot Capture 014 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3"/>
-              <img src="/FireShot Capture 013 - Ivy Fashion - localhost.png" alt="project"  className="rounded w-full mb-3"/>
+          <div class=" ml-5 mr-5 lg:mr-0 order-last lg:order-first">
+            <div className="flex flex-col items-center">
+              <img src="/FireShot Capture 027 - Noctuque Finance - localhost.png" alt="project"  className="rounded w-4/5 mb-3"/>
             </div>
           </div>
           <div className="flex flex-col lg:flex-col justify-center align-center content-center items-center ">
-            <h1 className="text-4xl lg:text-5xl mb-7">Login and Register Pages</h1>
+            <h1 className="text-4xl lg:text-5xl mb-7">Settings Page</h1>
             <p className='px-10'>
-            The login and register are simple and effectively allow the user to login and add items to their list of favourite items. 
-            <br />Once logged in it is also extremely simple to logout with the logout button in the navbar only requiring a simple click.
+            The User Settings section provides users with essential control over their account security and preferences. Here, users can conveniently change their password for added security and privacy. Additionally, the option to delete their account ensures users have complete autonomy over their data and online presence, fostering a sense of trust and confidence in the platform.
             </p>
           </div>
       </div >
