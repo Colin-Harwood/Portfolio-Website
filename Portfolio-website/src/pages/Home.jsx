@@ -192,7 +192,7 @@ const Home = () => {
         </div>
         <hr/>
         <div className="skill px-4 flex flex-row">
-          <h3 className="pr-7">SQL</h3>
+          <h3 className="pr-7">Tailwind</h3>
           <div className="skill-bar ">
             <div className="skill-level" style={{width: '65%'}}></div>
           </div>
@@ -213,7 +213,7 @@ const Home = () => {
         </div>
         <hr/>
         <div className="skill px-4 flex flex-row">
-          <h3 className="pr-7">Tailwind</h3>
+          <h3 className="pr-7">SQL</h3>
           <div className="skill-bar ">
             <div className="skill-level" style={{width: '40%'}}></div>
           </div>
